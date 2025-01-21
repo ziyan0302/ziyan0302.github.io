@@ -118,6 +118,7 @@
 		  <div class="col-8">
 		  <div class="ftco-section-3">
 			  <div class="row">
+				<hr width="70%" size="12" align="left">
 				<!-- Event Human Pose Estimation -->
 				<section id="Event_Human_Pose">
 					<h2 class="mb-4"><br>Continuous-Time Human Motion Field from Events</h2>
@@ -145,6 +146,44 @@
 						</div>
 					</article>
 				</section>
+				<hr width="70%" size="12" align="left">
+				<!-- Event Human Pose Estimation -->
+				<section id="Auto_zoom">
+					<h2 class="mb-4"><br>Auto-Zooming Camera in Basketball Game</h2>
+					<img width="560" height="320" src="images/human_pos_est_teaser.png" title="teaser">
+					<article class="6u 12u$(xsmall) work-item">
+						<!-- <iframe width="560" height="315" src="https://drive.google.com/file/d/1D0EOqQj7gR2Eys6BjwQwAvsWv5IpuMJg/preview" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>						 -->
+						<div class="col-md-12 ftco-animate" data-animate-effect="fadeInLeft">
+						<p>
+							Basketball games often use only half of the court at a time, requiring the camera to pan and 
+							zoom to follow the players' movements. This project aims to develop a system for automated zooming 
+							in basketball games. The system benefits producers by automatically tracking players to generate 
+							high-quality video streams and assists coaches by focusing on key players for game analysis.
+							Solution: 
+							1. Object Detection: The system detects key elements—players, referees, and the 
+							basketball—using models such as YOLOv11 trained on basketball data or the Grounding DINO model. 
+							2. Tracking: Accurate tracking ensures continuity even when object detection fails or misidentifies 
+							objects in certain frames. 
+							3. Pose Estimation: Player pose data is used to enhance tracking accuracy, refine zoom effects, 
+							and predict transitions when tracking falters. 
+							4. Zooming: The system constructs a bounding box based on segmented objects and adjusts the zoom to 
+							center it while maintaining frame constraints. Smooth transitions between frames are achieved 
+							through interpolation, guided by pose estimation data and changes in zoom values. 
+							This integrated approach ensures seamless, high-quality video output tailored for both streaming 
+							and analysis purposes.
+						</p>
+						<!-- <p>
+							In the team, I am responsibile for the UWB communication beacons, the UGV's maintenance and execute the experiments. 
+						</p> -->
+						<p>
+							<a href="https://drive.google.com/file/d/1-FBDFziUHLtzerCmAQIB1ssvorwEdkj0/view?usp=drive_link" class="btn btn-primary btn-learn">Demo1<i class="icon-download4"></i></a>
+							<a href="https://drive.google.com/file/d/1H-2c78hiZOaqJGrcJEmDQH54B8PF2wU_/view?usp=drive_link" class="btn btn-primary btn-learn">Demo2<i class="icon-download4"></i></a>
+							<a href="https://drive.google.com/file/d/1GFbQuwiwMWWdpNzAlMVqV-Ss4-CW6OaL/view?usp=drive_link" class="btn btn-primary btn-learn">Demo3<i class="icon-download4"></i></a>
+						</p>
+						</div>
+					</article>
+				</section>
+
 				<hr width="70%" size="12" align="left">
 				<!-- MineCraft Graphics Physical Engine -->
 				<section id="MineCraft_Graphics">
